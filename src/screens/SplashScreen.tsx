@@ -8,7 +8,7 @@ const SplashScreen = () => {
     <div className="splash-screen mandala-bg">
       <div className="logo-outer divine-glow">
         <div className="logo-inner">
-          <img src="/icn.png" alt="Stotraavani Logo" className="om-logo-img" />
+          <img src={`${import.meta.env.BASE_URL}icn.png`} alt="Stotraavani Logo" className="om-logo-img" />
         </div>
       </div>
       <h1 className="app-title-premium">Stotraavani</h1>
