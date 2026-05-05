@@ -1,0 +1,82 @@
+.toast {
+  position: fixed;
+  bottom: 100px; /* Just above bottom nav */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  background: linear-gradient(135deg, #4a3728, #3E2723);
+  color: #fff;
+  padding: 1.2rem 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 90%;
+  max-width: 400px;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.content {
+  flex: 1;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #FFD700;
+  font-weight: 700;
+}
+
+.message {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.updateBtn {
+  background: #FFD700;
+  color: #3E2723;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.updateBtn:hover {
+  transform: scale(1.1);
+}
+
+.updateBtn:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+
+.dismissBtn {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: color 0.2s ease;
+}
+
+.dismissBtn:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.dismissBtn:focus-visible {
+  outline: 3px solid rgba(255, 255, 255, 0.5);
+  outline-offset: 3px;
+  border-radius: 4px;
+}

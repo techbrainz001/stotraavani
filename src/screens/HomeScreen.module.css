@@ -1,0 +1,148 @@
+.homeScreen {
+  padding-top: 80px;
+  padding-bottom: 110px;
+}
+
+
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 0 1.5rem;
+  background: var(--white);
+  border-bottom: 1px solid rgba(184, 134, 11, 0.1);
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1200px;
+  z-index: 5000;
+}
+
+.brandLogo {
+  font-size: 1.8rem;
+  background: var(--bg-light);
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  border: 1px solid var(--accent-light);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.barTitle {
+  font-family: 'Playfair Display', 'Gautami', 'Noto Sans Telugu', serif;
+  font-size: clamp(1.1rem, 4vw, 1.4rem);
+  font-weight: 800;
+  color: var(--dark);
+  flex: 1;
+  text-align: left;
+}
+
+.mainContent {
+  padding-top: 0;
+}
+
+.horizontalLinks {
+  display: flex;
+  overflow-x: auto;
+  padding: 1.5rem 1.5rem 2.5rem;
+  gap: 1.5rem;
+  scrollbar-width: none;
+}
+
+.horizontalLinks::-webkit-scrollbar {
+  display: none;
+}
+
+.linkCard {
+  min-width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.linkIconBg {
+  width: 72px;
+  height: 72px;
+  background: linear-gradient(135deg, #ffffff, #f9f9f9);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(184, 134, 11, 0.1);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow: hidden;
+}
+
+.linkCard:hover .linkIconBg {
+  transform: translateY(-8px) scale(1.05);
+  border-color: var(--primary);
+  box-shadow: 0 12px 25px rgba(184, 134, 11, 0.15);
+  background: white;
+}
+
+.linkLabel {
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: #8b4513;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  opacity: 0.8;
+  margin-top: 0.4rem;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1.5rem 1.5rem 1rem;
+}
+
+.sectionTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #4a3728;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+
+.countPill {
+  background: #5d0e0e; /* Deep divine red */
+  color: white;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 800;
+  box-shadow: 0 4px 8px rgba(93, 14, 14, 0.2);
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+}
+
+.godList {
+  padding: 0 1rem 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .godList {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1.5rem 2.5rem;
+  }
+}

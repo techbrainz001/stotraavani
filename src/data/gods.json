@@ -1,0 +1,861 @@
+[
+  {
+    "id": "ganesha",
+    "nameEn": "Sri Ganesha",
+    "nameTe": "శ్రీ గణేశ స్తోత్రావణి",
+    "icon": "/ganesha.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      },
+      {
+        "id": "upanishad",
+        "nameEn": "Upanishad",
+        "nameTe": "ఉపనిషత్"
+      },
+      {
+        "id": "vedas",
+        "nameEn": "Vedas",
+        "nameTe": "వేదసూక్తములు"
+      },
+      {
+        "id": "vratas",
+        "nameEn": "Vratas",
+        "nameTe": "వ్రతములు"
+      }
+    ]
+  },
+  {
+    "id": "subramanya",
+    "nameEn": "Sri Subramanya",
+    "nameTe": "శ్రీ సుబ్రహ్మణ్య స్తోత్రావణి",
+    "icon": "/subramanya.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      },
+      {
+        "id": "upanishad",
+        "nameEn": "Upanishad",
+        "nameTe": "ఉపనిషత్"
+      }
+    ]
+  },
+  {
+    "id": "shiva",
+    "nameEn": "Sri Shiva",
+    "nameTe": "శ్రీ శివ స్తోత్రావణి",
+    "icon": "/shiva.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      },
+      {
+        "id": "ardhanarishvara",
+        "nameEn": "Ardhanarishvara",
+        "nameTe": "అర్ధనారీశ్వర"
+      },
+      {
+        "id": "mrityunjaya",
+        "nameEn": "Mrityunjaya",
+        "nameTe": "మృత్యుంజయ"
+      },
+      {
+        "id": "rudra",
+        "nameEn": "Rudra",
+        "nameTe": "రుద్ర"
+      },
+      {
+        "id": "rudra-prashna",
+        "nameEn": "Rudra Prashna",
+        "nameTe": "రుద్రప్రశ్నః"
+      }
+    ]
+  },
+  {
+    "id": "dakshinamurthy",
+    "nameEn": "Sri Dakshinamurthy",
+    "nameTe": "శ్రీ దక్షిణామూర్తి స్తోత్రావణి",
+    "icon": "/dakshinamurthy.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "nataraja",
+    "nameEn": "Sri Nataraja",
+    "nameTe": "శ్రీ నటరాజ స్తోత్రావణి",
+    "icon": "/nataraja.png",
+    "categories": [
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "bhairava",
+    "nameEn": "Sri Bhairava",
+    "nameTe": "శ్రీ భైరవ స్తోత్రావణి",
+    "icon": "/bhairava.png",
+    "categories": [
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "devi",
+    "nameEn": "Sri Devi",
+    "nameTe": "శ్రీ దేవీ స్తోత్రావణి",
+    "icon": "/devi.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      },
+      {
+        "id": "godha",
+        "nameEn": "Sri Godha",
+        "nameTe": "శ్రీ గోదా"
+      },
+      {
+        "id": "gowri",
+        "nameEn": "Sri Gowri",
+        "nameTe": "శ్రీ గౌరీ"
+      },
+      {
+        "id": "devi-bhagavatam",
+        "nameEn": "Devi Bhagavatam",
+        "nameTe": "శ్రీమద్దేవీభాగవతే"
+      },
+      {
+        "id": "panchastavi",
+        "nameEn": "Panchastavi",
+        "nameTe": "పంచస్తవి"
+      },
+      {
+        "id": "bhavani",
+        "nameEn": "Sri Bhavani",
+        "nameTe": "శ్రీ భవానీ"
+      },
+      {
+        "id": "bhramaramba",
+        "nameEn": "Sri Bhramaramba",
+        "nameTe": "శ్రీ భ్రమరాంబా"
+      },
+      {
+        "id": "manasadevi",
+        "nameEn": "Sri Manasadevi",
+        "nameTe": "శ్రీ మనసా దేవీ"
+      },
+      {
+        "id": "meenakshi",
+        "nameEn": "Sri Meenakshi",
+        "nameTe": "శ్రీ మీనాక్షీ"
+      },
+      {
+        "id": "renuka",
+        "nameEn": "Sri Renuka",
+        "nameTe": "శ్రీ రేణుకా"
+      },
+      {
+        "id": "vasavi",
+        "nameEn": "Sri Vasavi",
+        "nameTe": "శ్రీ వాసవీకన్యకాపరమేశ్వరీ"
+      }
+    ]
+  },
+  {
+    "id": "durga",
+    "nameEn": "Sri Durga",
+    "nameTe": "శ్రీ దుర్గా స్తోత్రావణి",
+    "icon": "/durga.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      },
+      {
+        "id": "vedas",
+        "nameEn": "Vedas",
+        "nameTe": "వేద సూక్తములు"
+      }
+    ]
+  },
+  {
+    "id": "lakshmi",
+    "nameEn": "Sri Lakshmi",
+    "nameTe": "శ్రీ లక్ష్మీ స్తోత్రావణి",
+    "icon": "/lakshmi.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      },
+      {
+        "id": "vedas",
+        "nameEn": "Vedas",
+        "nameTe": "వేద సూక్తములు"
+      }
+    ]
+  },
+  {
+    "id": "lalitha",
+    "nameEn": "Sri Lalitha",
+    "nameTe": "శ్రీ లలితా స్తోత్రావణి",
+    "icon": "/lalitha.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      },
+      {
+        "id": "devi-bhagavatam",
+        "nameEn": "Devi Bhagavatam",
+        "nameTe": "శ్రీమద్దేవీభాగవతే"
+      },
+      {
+        "id": "upanishad",
+        "nameEn": "Upanishad",
+        "nameTe": "ఉపనిషత్"
+      }
+    ]
+  },
+  {
+    "id": "shyamala",
+    "nameEn": "Sri Shyamala",
+    "nameTe": "శ్రీ శ్యామలా స్తోత్రావణి",
+    "icon": "/shyamala.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "varahi",
+    "nameEn": "Sri Varahi",
+    "nameTe": "శ్రీ వారాహీ స్తోత్రావణి",
+    "icon": "/varahi.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "bala",
+    "nameEn": "Sri Bala",
+    "nameTe": "శ్రీ బాలా స్తోత్రావణి",
+    "icon": "/bala.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "dashamahavidya",
+    "nameEn": "Dasha Mahavidyas",
+    "nameTe": "దశమహావిద్యలు స్తోత్రావణి",
+    "icon": "/dashamahavidya.png",
+    "categories": [
+      {
+        "id": "kalika",
+        "nameEn": "Sri Kalika",
+        "nameTe": "శ్రీ మహాకాళీ"
+      },
+      {
+        "id": "tara",
+        "nameEn": "Sri Tara Devi",
+        "nameTe": "శ్రీ తారా దేవి"
+      },
+      {
+        "id": "tripurasundari",
+        "nameEn": "Sri Tripurasundari",
+        "nameTe": "శ్రీ త్రిపురసుందరీ"
+      },
+      {
+        "id": "bhuvaneshwari",
+        "nameEn": "Sri Bhuvaneshwari",
+        "nameTe": "శ్రీ భువనేశ్వరి"
+      },
+      {
+        "id": "tripurabhairavi",
+        "nameEn": "Sri Tripurabhairavi",
+        "nameTe": "శ్రీ త్రిపురభైరవీ"
+      },
+      {
+        "id": "chhinnamasta",
+        "nameEn": "Sri Chhinnamasta",
+        "nameTe": "శ్రీ ఛిన్నమస్తా దేవి"
+      },
+      {
+        "id": "dhumavati",
+        "nameEn": "Sri Dhumavati",
+        "nameTe": "శ్రీ ధూమావతీ"
+      },
+      {
+        "id": "matangi",
+        "nameEn": "Sri Matangi",
+        "nameTe": "శ్రీ మాతంగీ"
+      },
+      {
+        "id": "kamala",
+        "nameEn": "Sri Kamala",
+        "nameTe": "శ్రీ కమలా"
+      }
+    ]
+  },
+  {
+    "id": "kalika",
+    "nameEn": "Sri Kalika",
+    "nameTe": "శ్రీ కాళికా స్తోత్రావణి",
+    "icon": "/kalika.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "pratyangira",
+    "nameEn": "Sri Pratyangira",
+    "nameTe": "శ్రీ ప్రత్యంగిరా స్తోత్రావణి",
+    "icon": "/pratyangira.png",
+    "categories": [
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      },
+      {
+        "id": "suktam",
+        "nameEn": "Suktam",
+        "nameTe": "సూక్తం"
+      }
+    ]
+  },
+  {
+    "id": "brahma",
+    "nameEn": "Sri Brahma",
+    "nameTe": "శ్రీ బ్రహ్మ స్తోత్రావణి",
+    "icon": "/brahma.png",
+    "categories": [
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "saraswati",
+    "nameEn": "Sri Saraswati",
+    "nameTe": "శ్రీ సరస్వతీ స్తోత్రావణి",
+    "icon": "/saraswati.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      },
+      {
+        "id": "suktam",
+        "nameEn": "Suktam",
+        "nameTe": "సూక్తం"
+      }
+    ]
+  },
+  {
+    "id": "gayatri",
+    "nameEn": "Sri Gayatri",
+    "nameTe": "శ్రీ గాయత్రీ స్తోత్రావణి",
+    "icon": "/gayatri.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "vishnu",
+    "nameEn": "Sri Vishnu",
+    "nameTe": "శ్రీ విష్ణు స్తోత్రావణి",
+    "icon": "/vishnu.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      },
+      {
+        "id": "garuda",
+        "nameEn": "Garuda",
+        "nameTe": "గరుడ"
+      },
+      {
+        "id": "damodara",
+        "nameEn": "Damodara",
+        "nameTe": "దామోదర"
+      },
+      {
+        "id": "dhanvantari",
+        "nameEn": "Dhanvantari",
+        "nameTe": "ధన్వంతరీ"
+      },
+      {
+        "id": "narayana",
+        "nameEn": "Narayana",
+        "nameTe": "నారాయణ"
+      },
+      {
+        "id": "ranganatha",
+        "nameEn": "Ranganatha",
+        "nameTe": "రంగనాథ"
+      },
+      {
+        "id": "hayagriva",
+        "nameEn": "Hayagriva",
+        "nameTe": "హయగ్రీవ"
+      },
+      {
+        "id": "hari",
+        "nameEn": "Sri Hari",
+        "nameTe": "శ్రీ హరి"
+      },
+      {
+        "id": "vedas",
+        "nameEn": "Vedas",
+        "nameTe": "వేద సూక్తములు"
+      }
+    ]
+  },
+  {
+    "id": "narasimha",
+    "nameEn": "Sri Narasimha",
+    "nameTe": "శ్రీ నృసింహ స్తోత్రావణి",
+    "icon": "/narasimha.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "rama",
+    "nameEn": "Sri Rama",
+    "nameTe": "శ్రీ రామ స్తోత్రావణి",
+    "icon": "/rama.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "krishna",
+    "nameEn": "Sri Krishna",
+    "nameTe": "శ్రీ కృష్ణ స్తోత్రావణి",
+    "icon": "/krishna.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "venkateswara",
+    "nameEn": "Sri Venkateswara",
+    "nameTe": "శ్రీ వేంకటేశ్వర స్తోత్రావణి",
+    "icon": "/venkateswara.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      },
+      {
+        "id": "suprabhatam",
+        "nameEn": "Suprabhatam",
+        "nameTe": "సుప్రభాతం"
+      },
+      {
+        "id": "padmavati",
+        "nameEn": "Sri Padmavati",
+        "nameTe": "శ్రీ పద్మావతీ"
+      }
+    ]
+  },
+  {
+    "id": "sudarshana",
+    "nameEn": "Sri Sudarshana",
+    "nameTe": "శ్రీ సుదర్శన స్తోత్రావణి",
+    "icon": "/sudarshana.png",
+    "categories": [
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "dashavatara",
+    "nameEn": "Dashavatara",
+    "nameTe": "దశావతార స్తోత్రావణి",
+    "icon": "/dashavatara.png",
+    "categories": [
+      {
+        "id": "matsya",
+        "nameEn": "Matsya",
+        "nameTe": "మత్స్య"
+      },
+      {
+        "id": "kurma",
+        "nameEn": "Kurma",
+        "nameTe": "కూర్మ"
+      },
+      {
+        "id": "varaha",
+        "nameEn": "Varaha",
+        "nameTe": "వరాహ"
+      },
+      {
+        "id": "narasimha",
+        "nameEn": "Narasimha",
+        "nameTe": "నృసింహ"
+      },
+      {
+        "id": "vamana",
+        "nameEn": "Vamana",
+        "nameTe": "వామన"
+      },
+      {
+        "id": "parashurama",
+        "nameEn": "Parashurama",
+        "nameTe": "పరశురామ"
+      },
+      {
+        "id": "rama",
+        "nameEn": "Rama",
+        "nameTe": "రామ"
+      },
+      {
+        "id": "balarama",
+        "nameEn": "Balarama",
+        "nameTe": "బలరామ"
+      },
+      {
+        "id": "krishna",
+        "nameEn": "Krishna",
+        "nameTe": "కృష్ణ"
+      }
+    ]
+  },
+  {
+    "id": "surya",
+    "nameEn": "Sri Surya",
+    "nameTe": "శ్రీ సూర్య స్తోత్రావణి",
+    "icon": "/surya.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "navagraha",
+    "nameEn": "Navagraha",
+    "nameTe": "నవగ్రహ స్తోత్రావణి",
+    "icon": "/navagraha.png",
+    "categories": [
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      },
+      {
+        "id": "surya",
+        "nameEn": "Surya",
+        "nameTe": "శ్రీ సూర్య స్తోత్రాలు"
+      },
+      {
+        "id": "chandra",
+        "nameEn": "Chandra",
+        "nameTe": "శ్రీ చంద్ర స్తోత్రాలు"
+      },
+      {
+        "id": "angara",
+        "nameEn": "Angara",
+        "nameTe": "శ్రీ అంగారక స్తోత్రాలు"
+      },
+      {
+        "id": "budha",
+        "nameEn": "Budha",
+        "nameTe": "శ్రీ బుధ స్తోత్రాలు"
+      },
+      {
+        "id": "brihaspati",
+        "nameEn": "Brihaspati",
+        "nameTe": "శ్రీ బృహస్పతి స్తోత్రాలు"
+      },
+      {
+        "id": "shukra",
+        "nameEn": "Shukra",
+        "nameTe": "శ్రీ శుక్ర స్తోత్రాలు"
+      },
+      {
+        "id": "shani",
+        "nameEn": "Shani",
+        "nameTe": "శ్రీ శని స్తోత్రాలు"
+      },
+      {
+        "id": "rahu",
+        "nameEn": "Rahu",
+        "nameTe": "శ్రీ రాహు స్తోత్రాలు"
+      },
+      {
+        "id": "ketu",
+        "nameEn": "Ketu",
+        "nameTe": "శ్రీ కేతు స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "ayyappa",
+    "nameEn": "Sri Ayyappa",
+    "nameTe": "శ్రీ అయ్యప్ప స్తోత్రావణి",
+    "icon": "/ayyappa.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "nagadevata",
+    "nameEn": "Naga Devatha",
+    "nameTe": "నాగదేవత స్తోత్రావణి",
+    "icon": "/nagadevata.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      },
+      {
+        "id": "manasadevi",
+        "nameEn": "Manasa Devi",
+        "nameTe": "మనసా దేవీ"
+      }
+    ]
+  },
+  {
+    "id": "hanuma",
+    "nameEn": "Sri Hanuma",
+    "nameTe": "శ్రీ హనుమ స్తోత్రావణి",
+    "icon": "/hanuma.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      },
+      {
+        "id": "suktam",
+        "nameEn": "Suktam",
+        "nameTe": "సూక్తం"
+      }
+    ]
+  },
+  {
+    "id": "saibaba",
+    "nameEn": "Sri Sai Baba",
+    "nameTe": "శ్రీ సాయిబాబా స్తోత్రావణి",
+    "icon": "/saibaba.png",
+    "categories": [
+      {
+        "id": "pujas",
+        "nameEn": "Pujas",
+        "nameTe": "పూజా"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  },
+  {
+    "id": "pitrudevatha",
+    "nameEn": "Pitru Devatha",
+    "nameTe": "పితృదేవత స్తోత్రావణి",
+    "icon": "/pitrudevatha.png",
+    "categories": [
+      {
+        "id": "tarpanam",
+        "nameEn": "Tarpanam",
+        "nameTe": "తర్పణం"
+      },
+      {
+        "id": "stotras",
+        "nameEn": "Stotras",
+        "nameTe": "స్తోత్రాలు"
+      }
+    ]
+  }
+]

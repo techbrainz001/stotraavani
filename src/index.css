@@ -1,0 +1,104 @@
+:root {
+  --primary: #D35400;
+  /* Deep Saffron */
+  --primary-light: #FF8C00;
+  --primary-glow: rgba(211, 84, 0, 0.2);
+  --accent: #B8860B;
+  /* Dark Goldenrod */
+  --accent-light: #FFD700;
+  --dark: #5D0000;
+  /* Deep Maroon */
+  --bg-light: #eac673ff;
+  /* Warmer Parchment White */
+  --bg-paper: #ebcf96f7;
+  /* Warmer Paper Tone */
+  --text-main: #2C1810;
+  /* Darker Coffee/Espresso */
+  --text-muted: #6D4C41;
+  --white: #FFFFFF;
+  --radius-lg: 24px;
+  --radius-md: 14px;
+  --shadow-divine: 0 12px 40px rgba(93, 0, 0, 0.1);
+  --shadow-gold: 0 6px 20px rgba(184, 134, 11, 0.15);
+  --glass: rgba(255, 251, 245, 0.92);
+  --premium-bg: radial-gradient(circle at top right, rgba(211, 84, 0, 0.05) 0%, transparent 40%),
+    radial-gradient(circle at bottom left, rgba(184, 134, 11, 0.05) 0%, transparent 40%),
+    url('https://www.transparenttextures.com/patterns/natural-paper.png'),
+    #FFFBF5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Gautami', 'Noto Sans Telugu', 'Inter', system-ui, sans-serif;
+  background-color: #F4E7D3;
+  /* Outer background */
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+#root {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+.divine-font {
+  font-family: 'Playfair Display', 'Gautami', 'Noto Sans Telugu', serif;
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fade-in {
+  animation: divineFadeIn 0.6s ease-out forwards;
+}
+
+@keyframes divineFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mandala-bg {
+  background-image:
+    radial-gradient(circle at center, rgba(255, 215, 0, 0.2) 0%, transparent 70%),
+    url('https://www.transparenttextures.com/patterns/natural-paper.png');
+  background-color: var(--bg-paper);
+  position: relative;
+}
+
+.divine-border {
+  border: 1px solid rgba(184, 134, 11, 0.3);
+  position: relative;
+}
+
+.divine-border::after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  border: 1px solid rgba(184, 134, 11, 0.1);
+  pointer-events: none;
+}
