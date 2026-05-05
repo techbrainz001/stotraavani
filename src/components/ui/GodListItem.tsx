@@ -39,11 +39,15 @@ const GodListItem: React.FC<GodListItemProps> = ({
 
       <motion.div
         layoutId={`god-icon-${id}`}
-        className={`god-medallion-premium ${styles.medallion} ${icon.startsWith('/') ? styles.medallionImage : styles.medallionIcon}`}
+        className={`god-medallion-premium ${styles.medallion} ${(icon.includes('.') || icon.startsWith('/')) ? styles.medallionImage : styles.medallionIcon}`}
         aria-hidden="true"
       >
-        {icon.startsWith('/') ? (
-          <img src={icon} alt="" className={styles.medallionImgTag} />
+        {(icon.includes('.') || icon.startsWith('/')) ? (
+          <img 
+            src={icon.startsWith('http') ? icon : `${import.meta.env.BASE_URL}${icon.startsWith('/') ? icon.slice(1) : icon}`} 
+            alt="" 
+            className={styles.medallionImgTag} 
+          />
         ) : (
           <span className={styles.medallionSpanTag}>{icon}</span>
         )}

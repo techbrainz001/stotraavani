@@ -54,7 +54,7 @@ const HomeScreen = () => {
         {!isSearching ? (
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
             <div className={styles.brandLogo} aria-hidden="true">
-              <img src="icn.png" alt="Stotraavani" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              <img src={`${import.meta.env.BASE_URL}icn.png`} alt="Stotraavani" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
             <div className={styles.barTitle}>Stotraavani - స్తోత్రావణి</div>
           </div>
@@ -85,11 +85,11 @@ const HomeScreen = () => {
         {!isSearching && (
           <div className={styles.horizontalLinks}>
             {[
-              { label: 'About', icon: <img src="about.png" alt="About" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />, path: '/about' },
-              { label: 'Apps', icon: <img src="apps.png" alt="Apps" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />, url: 'https://play.google.com/store/apps/dev?id=5892278135973009320&hl=en_IN' },
-              { label: 'Books', icon: <img src="books.png" alt="Books" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />, url: 'https://www.amazon.in/s?i=digital-text&rh=p_27%3ASuguna%2BChakravarthy&s=relevancerank&text=Suguna+Chakravarthy&ref=dp_byline_sr_ebooks_1' },
-              { label: 'YouTube', icon: <img src="youtube.png" alt="YouTube" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />, url: 'https://www.youtube.com/@stotraavani' },
-              { label: 'FaceBook', icon: <img src="facebook.png" alt="Facebook" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />, url: 'https://www.facebook.com/stotraavani' }
+              { label: 'About', icon: <img src={`${import.meta.env.BASE_URL}about.png`} alt="About" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />, path: '/about' },
+              { label: 'Apps', icon: <img src={`${import.meta.env.BASE_URL}apps.png`} alt="Apps" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />, url: 'https://play.google.com/store/apps/dev?id=5892278135973009320&hl=en_IN' },
+              { label: 'Books', icon: <img src={`${import.meta.env.BASE_URL}books.png`} alt="Books" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />, url: 'https://www.amazon.in/s?i=digital-text&rh=p_27%3ASuguna%2BChakravarthy&s=relevancerank&text=Suguna+Chakravarthy&ref=dp_byline_sr_ebooks_1' },
+              { label: 'YouTube', icon: <img src={`${import.meta.env.BASE_URL}youtube.png`} alt="YouTube" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />, url: 'https://www.youtube.com/@stotraavani' },
+              { label: 'FaceBook', icon: <img src={`${import.meta.env.BASE_URL}facebook.png`} alt="Facebook" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />, url: 'https://www.facebook.com/stotraavani' }
             ].map((item) => (
               <div
                 key={item.label}
