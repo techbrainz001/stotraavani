@@ -27,7 +27,7 @@ const AboutScreen = () => {
         >
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '2rem', marginTop: '1rem' }}>
             <img
-              src="/icn.png"
+              src={`${import.meta.env.BASE_URL}icn.png`}
               alt="Stotraavani Logo"
               style={{ width: '120px', height: '120px', borderRadius: '24px', objectFit: 'cover', marginBottom: '1rem', border: '3px solid var(--accent)' }}
             />

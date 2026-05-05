@@ -32,7 +32,7 @@ const GodCategoryScreen = () => {
         <motion.div
           layoutId={`god-icon-${selectedGod.id}`}
           className="banner-medallion-large"
-          style={selectedGod.icon.startsWith('/') ? {
+          style={(selectedGod.icon.includes('.') || selectedGod.icon.startsWith('/')) ? {
             overflow: 'hidden',
             background: 'transparent',
             display: 'flex',
@@ -46,8 +46,12 @@ const GodCategoryScreen = () => {
             boxShadow: '0 8px 24px rgba(0,0,0,0.15)',
           } : {}}
         >
-          {selectedGod.icon.startsWith('/') ? (
-            <img src={selectedGod.icon} alt={selectedGod.nameEn} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+          {(selectedGod.icon.includes('.') || selectedGod.icon.startsWith('/')) ? (
+            <img 
+              src={selectedGod.icon.startsWith('http') ? selectedGod.icon : `${import.meta.env.BASE_URL}${selectedGod.icon.startsWith('/') ? selectedGod.icon.slice(1) : selectedGod.icon}`} 
+              alt={selectedGod.nameEn} 
+              style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} 
+            />
           ) : (
             selectedGod.icon
           )}
