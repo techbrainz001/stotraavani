@@ -3,7 +3,7 @@
     "id": "ganesha",
     "nameEn": "Sri Ganesha",
     "nameTe": "శ్రీ గణేశ స్తోత్రావణి",
-    "icon": "/ganesha.png",
+    "icon": "ganesha.png",
     "categories": [
       {
         "id": "pujas",
@@ -36,7 +36,7 @@
     "id": "subramanya",
     "nameEn": "Sri Subramanya",
     "nameTe": "శ్రీ సుబ్రహ్మణ్య స్తోత్రావణి",
-    "icon": "/subramanya.png",
+    "icon": "subramanya.png",
     "categories": [
       {
         "id": "pujas",
@@ -59,7 +59,7 @@
     "id": "shiva",
     "nameEn": "Sri Shiva",
     "nameTe": "శ్రీ శివ స్తోత్రావణి",
-    "icon": "/shiva.png",
+    "icon": "shiva.png",
     "categories": [
       {
         "id": "pujas",
@@ -97,7 +97,7 @@
     "id": "dakshinamurthy",
     "nameEn": "Sri Dakshinamurthy",
     "nameTe": "శ్రీ దక్షిణామూర్తి స్తోత్రావణి",
-    "icon": "/dakshinamurthy.png",
+    "icon": "dakshinamurthy.png",
     "categories": [
       {
         "id": "pujas",
@@ -115,7 +115,7 @@
     "id": "nataraja",
     "nameEn": "Sri Nataraja",
     "nameTe": "శ్రీ నటరాజ స్తోత్రావణి",
-    "icon": "/nataraja.png",
+    "icon": "nataraja.png",
     "categories": [
       {
         "id": "stotras",
@@ -128,7 +128,7 @@
     "id": "bhairava",
     "nameEn": "Sri Bhairava",
     "nameTe": "శ్రీ భైరవ స్తోత్రావణి",
-    "icon": "/bhairava.png",
+    "icon": "bhairava.png",
     "categories": [
       {
         "id": "stotras",
@@ -141,7 +141,7 @@
     "id": "devi",
     "nameEn": "Sri Devi",
     "nameTe": "శ్రీ దేవీ స్తోత్రావణి",
-    "icon": "/devi.png",
+    "icon": "devi.png",
     "categories": [
       {
         "id": "pujas",
@@ -209,7 +209,7 @@
     "id": "durga",
     "nameEn": "Sri Durga",
     "nameTe": "శ్రీ దుర్గా స్తోత్రావణి",
-    "icon": "/durga.png",
+    "icon": "durga.png",
     "categories": [
       {
         "id": "pujas",
@@ -232,7 +232,7 @@
     "id": "lakshmi",
     "nameEn": "Sri Lakshmi",
     "nameTe": "శ్రీ లక్ష్మీ స్తోత్రావణి",
-    "icon": "/lakshmi.png",
+    "icon": "lakshmi.png",
     "categories": [
       {
         "id": "pujas",
@@ -255,7 +255,7 @@
     "id": "lalitha",
     "nameEn": "Sri Lalitha",
     "nameTe": "శ్రీ లలితా స్తోత్రావణి",
-    "icon": "/lalitha.png",
+    "icon": "lalitha.png",
     "categories": [
       {
         "id": "pujas",
@@ -283,7 +283,7 @@
     "id": "shyamala",
     "nameEn": "Sri Shyamala",
     "nameTe": "శ్రీ శ్యామలా స్తోత్రావణి",
-    "icon": "/shyamala.png",
+    "icon": "shyamala.png",
     "categories": [
       {
         "id": "pujas",
@@ -301,7 +301,7 @@
     "id": "varahi",
     "nameEn": "Sri Varahi",
     "nameTe": "శ్రీ వారాహీ స్తోత్రావణి",
-    "icon": "/varahi.png",
+    "icon": "varahi.png",
     "categories": [
       {
         "id": "pujas",
@@ -319,7 +319,7 @@
     "id": "bala",
     "nameEn": "Sri Bala",
     "nameTe": "శ్రీ బాలా స్తోత్రావణి",
-    "icon": "/bala.png",
+    "icon": "bala.png",
     "categories": [
       {
         "id": "pujas",
@@ -337,7 +337,7 @@
     "id": "dashamahavidya",
     "nameEn": "Dasha Mahavidyas",
     "nameTe": "దశమహావిద్యలు స్తోత్రావణి",
-    "icon": "/dashamahavidya.png",
+    "icon": "dashamahavidya.png",
     "categories": [
       {
         "id": "kalika",
@@ -390,7 +390,7 @@
     "id": "kalika",
     "nameEn": "Sri Kalika",
     "nameTe": "శ్రీ కాళికా స్తోత్రావణి",
-    "icon": "/kalika.png",
+    "icon": "kalika.png",
     "categories": [
       {
         "id": "pujas",
@@ -408,7 +408,7 @@
     "id": "pratyangira",
     "nameEn": "Sri Pratyangira",
     "nameTe": "శ్రీ ప్రత్యంగిరా స్తోత్రావణి",
-    "icon": "/pratyangira.png",
+    "icon": "pratyangira.png",
     "categories": [
       {
         "id": "stotras",
@@ -426,7 +426,7 @@
     "id": "brahma",
     "nameEn": "Sri Brahma",
     "nameTe": "శ్రీ బ్రహ్మ స్తోత్రావణి",
-    "icon": "/brahma.png",
+    "icon": "brahma.png",
     "categories": [
       {
         "id": "stotras",
@@ -439,7 +439,7 @@
     "id": "saraswati",
     "nameEn": "Sri Saraswati",
     "nameTe": "శ్రీ సరస్వతీ స్తోత్రావణి",
-    "icon": "/saraswati.png",
+    "icon": "saraswati.png",
     "categories": [
       {
         "id": "pujas",
@@ -462,7 +462,7 @@
     "id": "gayatri",
     "nameEn": "Sri Gayatri",
     "nameTe": "శ్రీ గాయత్రీ స్తోత్రావణి",
-    "icon": "/gayatri.png",
+    "icon": "gayatri.png",
     "categories": [
       {
         "id": "pujas",
@@ -480,7 +480,7 @@
     "id": "vishnu",
     "nameEn": "Sri Vishnu",
     "nameTe": "శ్రీ విష్ణు స్తోత్రావణి",
-    "icon": "/vishnu.png",
+    "icon": "vishnu.png",
     "categories": [
       {
         "id": "pujas",
@@ -538,7 +538,7 @@
     "id": "narasimha",
     "nameEn": "Sri Narasimha",
     "nameTe": "శ్రీ నృసింహ స్తోత్రావణి",
-    "icon": "/narasimha.png",
+    "icon": "narasimha.png",
     "categories": [
       {
         "id": "pujas",
@@ -556,7 +556,7 @@
     "id": "rama",
     "nameEn": "Sri Rama",
     "nameTe": "శ్రీ రామ స్తోత్రావణి",
-    "icon": "/rama.png",
+    "icon": "rama.png",
     "categories": [
       {
         "id": "pujas",
@@ -574,7 +574,7 @@
     "id": "krishna",
     "nameEn": "Sri Krishna",
     "nameTe": "శ్రీ కృష్ణ స్తోత్రావణి",
-    "icon": "/krishna.png",
+    "icon": "krishna.png",
     "categories": [
       {
         "id": "pujas",
@@ -592,7 +592,7 @@
     "id": "venkateswara",
     "nameEn": "Sri Venkateswara",
     "nameTe": "శ్రీ వేంకటేశ్వర స్తోత్రావణి",
-    "icon": "/venkateswara.png",
+    "icon": "venkateswara.png",
     "categories": [
       {
         "id": "pujas",
@@ -620,7 +620,7 @@
     "id": "sudarshana",
     "nameEn": "Sri Sudarshana",
     "nameTe": "శ్రీ సుదర్శన స్తోత్రావణి",
-    "icon": "/sudarshana.png",
+    "icon": "sudarshana.png",
     "categories": [
       {
         "id": "stotras",
@@ -633,7 +633,7 @@
     "id": "dashavatara",
     "nameEn": "Dashavatara",
     "nameTe": "దశావతార స్తోత్రావణి",
-    "icon": "/dashavatara.png",
+    "icon": "dashavatara.png",
     "categories": [
       {
         "id": "matsya",
@@ -686,7 +686,7 @@
     "id": "surya",
     "nameEn": "Sri Surya",
     "nameTe": "శ్రీ సూర్య స్తోత్రావణి",
-    "icon": "/surya.png",
+    "icon": "surya.png",
     "categories": [
       {
         "id": "pujas",
@@ -704,7 +704,7 @@
     "id": "navagraha",
     "nameEn": "Navagraha",
     "nameTe": "నవగ్రహ స్తోత్రావణి",
-    "icon": "/navagraha.png",
+    "icon": "navagraha.png",
     "categories": [
       {
         "id": "stotras",
@@ -762,7 +762,7 @@
     "id": "ayyappa",
     "nameEn": "Sri Ayyappa",
     "nameTe": "శ్రీ అయ్యప్ప స్తోత్రావణి",
-    "icon": "/ayyappa.png",
+    "icon": "ayyappa.png",
     "categories": [
       {
         "id": "pujas",
@@ -780,7 +780,7 @@
     "id": "nagadevata",
     "nameEn": "Naga Devatha",
     "nameTe": "నాగదేవత స్తోత్రావణి",
-    "icon": "/nagadevata.png",
+    "icon": "nagadevata.png",
     "categories": [
       {
         "id": "pujas",
@@ -803,7 +803,7 @@
     "id": "hanuma",
     "nameEn": "Sri Hanuma",
     "nameTe": "శ్రీ హనుమ స్తోత్రావణి",
-    "icon": "/hanuma.png",
+    "icon": "hanuma.png",
     "categories": [
       {
         "id": "pujas",
@@ -826,7 +826,7 @@
     "id": "saibaba",
     "nameEn": "Sri Sai Baba",
     "nameTe": "శ్రీ సాయిబాబా స్తోత్రావణి",
-    "icon": "/saibaba.png",
+    "icon": "saibaba.png",
     "categories": [
       {
         "id": "pujas",
@@ -844,7 +844,7 @@
     "id": "pitrudevatha",
     "nameEn": "Pitru Devatha",
     "nameTe": "పితృదేవత స్తోత్రావణి",
-    "icon": "/pitrudevatha.png",
+    "icon": "pitrudevatha.png",
     "categories": [
       {
         "id": "tarpanam",
